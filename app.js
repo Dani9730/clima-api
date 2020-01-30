@@ -1,8 +1,8 @@
 //importamos axios
 const axios = require('axios');
 //importamos ubicacion con todo lo que esta exportado
-const ubicacion = require('./controlador/ubicacion');
-const clima = require('./controlador/clima');
+const ubicacion = require('ubicacion');
+const clima = require('clima');
 //configuración del yargs, se configura el comando en la 
 //raiz de la aplicacion
 const argv = require('yargs').options({
